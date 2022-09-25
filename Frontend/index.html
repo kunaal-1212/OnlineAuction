@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bid It! | Home</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <header>
+    <div class="mainheader">
+        <div class="logo">
+            <div style="font-weight: 900; font-size: 35px; color: white">
+              Bid It!
+            </div>
+            <hr style="background-color: #E5DDD5" />
+            <div style="font-stretch: expanded; padding: 3px; color: #E5DDD5">
+              Bidding made easy..
+            </div>
+          </div>
+
+      <!-- <input type="checkbox"id="check">
+            <label for="check"class="checkbtn">
+                <i class="fas fa-bars"></i> -->
+      <!-- </label> -->
+
+      <section></section>
+    </div>
+    <div style="margin-left: 5%; margin-right: 5%">
+      <nav class="topnav" id="myTopnav">
+        
+        <a id="about" href="@">About Us</a>
+        <!-- <div class="dropdown">
+          <button class="dropbtn" id="donate" href="@">Law Books</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> -->
+        
+        <a id="other" href="@">Others</a>
+        <!-- <div class="dropdown">
+        <button id="publications" href="@" class="dropbtn">Publications</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div> -->
+        <!-- </div> -->
+        <a id="journals" href="@">Auctions</a>
+        <a id="login" href="loginRegister.html">Login/Register</a>
+        <a id="contact" href="@">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+    <!--Slider Code start-->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="https://thumbs.dreamstime.com/b/auction-banner-template-ribbon-label-sign-177645327.jpg" style="width: 100%; height: 300px;" />
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="https://thumbs.dreamstime.com/b/auction-banner-template-ribbon-label-sign-177645327.jpg" style="width: 100%; height: 300px;"/>
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://thumbs.dreamstime.com/b/auction-banner-template-ribbon-label-sign-177645327.jpg" style="width: 100%; height: 300px;" />
+        <div class="text">Caption Three</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!--Slider Code end-->
+    <div style="width: 20px"></div>
+    <!--Books Display-->
+
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="Gstmanual.JPG" />
+
+          <div class="contentimp">
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="Guideto.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+        <div class="col-4">
+          <img src="Search.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+        <div class="col-4">
+          <img src="Gstmanual.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="Gstmanual.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+        <div class="col-4">
+          <img src="Guideto.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+        <div class="col-4">
+          <img src="Search.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+        <div class="col-4">
+          <img src="Gstmanual.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="Gstmanual.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+        <div class="col-4">
+          <img src="Guideto.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+        <div class="col-4">
+          <img src="Search.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+        <div class="col-4">
+          <img src="Gstmanual.JPG" />
+
+          <h4>GST Manual</h4>
+          <p>Retail Price : Rs. 700</p>
+          <p class="saleprice">Sale Price : Rs. 500</p>
+          <p>Edition : 5th Edition</p>
+          <button class="btn transparent" id="smallbtn">Place bid</button>
+        </div>
+      </div>
+    </div>
+
+    <!--
+      for upper footer
+-->
+    <div class="upperfooter">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
+          <div class="col-3">
+            <h2>Contact Us</h2>
+            <ul style="list-style-type: disc">
+              <li>Lorem ipsum dolor sit amet</li>
+              <hr
+                style="
+                  background-color: white;
+                  margin-top: 10px;
+                  margin-bottom: 10px;
+                "
+              />
+              <li>Email : Lorem ipsum dolor sit amet</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h2>Address</h2>
+            <p>
+              Bid It Xyzzz Xyzzz<br />
+              Lorem ipsum dolor sit amet,<br />
+              Lorem ipsum dolor sit amet,<br />
+              Lorem ipsum dolor sit amet,<br />
+              Lorem ipsum dolor 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </body>
+  <footer>
+    <p>© Copyright Bid It! 2022 All Rights Reserved. Privacy Policy</p>
+  </footer>
+</html>
